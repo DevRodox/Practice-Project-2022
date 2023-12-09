@@ -1,0 +1,23 @@
+#banner {
+    width: 100%;
+}
+
+.card {
+    background: radial-gradient(circle, rgba(249,255,0,0.45675770308123254) 0%, rgba(233,240,0,1) 100%);;
+    border: 3px solid #797900;
+    color: #2F0C4BFF;
+}
+
+.card img {
+    object-fit: contain;
+    height: 275px;
+    background-color: white;
+}
+
+.card img:hover {
+    object-fit: cover;
+}
+
+.card-body .card-text {
+    opacity: 0.8;
+}

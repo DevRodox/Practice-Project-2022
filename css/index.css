@@ -1,0 +1,62 @@
+.carousel-item {
+  transition: transform 0.75s ease, opacity .5s ease-out !important;
+}
+
+.carousel-control-next-icon {
+  background-color: #b300ffe2 !important;
+  outline: 10px solid #B400FFe2;
+  border-radius: 20px;
+}
+
+.carousel-control-prev-icon {
+  background-color: #b300ffe2 !important;
+  outline: 10px solid #B400FFe2;
+  border-radius: 20px;
+}
+
+.card {
+  display: inline-block;
+  white-space: normal;
+  background: radial-gradient(circle, rgba(249,255,0,0.45675770308123254) 0%, rgba(233,240,0,1) 100%);;
+  border: 3px solid #797900;
+  width: 18.5rem;
+  color: #2F0C4BFF;
+}
+
+.card img {
+  object-fit: contain;
+  height: 275px;
+  background-color: white;
+}
+
+.card-body .card-text {
+  opacity: 0.8;
+}
+
+div.scroll-categories {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scroll-categories {
+  scrollbar-width: auto;
+  scrollbar-color: #d4ff00 rgba(83, 38, 120, 0);
+}
+
+.scroll-categories::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-categories::-webkit-scrollbar-track {
+  background: rgba(83, 38, 120, 0);
+}
+
+.scroll-categories::-webkit-scrollbar-thumb {
+  background-color: #d4ff00;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: 'Pop-title', fantasy;
+  color: #dede00;
+}

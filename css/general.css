@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Pop-title;
+    src: url("../fuentes/Comic-Gecko.ttf");
+}
+
+body {
+    background: linear-gradient(0deg, rgba(83, 38, 120, 1) 0%, rgba(47, 12, 75, 1) 100%) no-repeat;
+    min-height: 100vh;
+}
+
+body {
+    scrollbar-width: auto;
+    scrollbar-color: #d4ff00 rgba(83, 38, 120, 1);
+}
+
+body::-webkit-scrollbar {
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(83, 38, 120, 1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d4ff00;
+    border-radius: 10px;
+}
+
+* {
+    font-family: 'Trebuchet MS', fantasy;
+}
+
+.navbar {
+    background-color: #B400FF;
+}
+
+.navbar-brand {
+    opacity: 85%;
+}
+
+.navbar-brand span {
+    font-family: 'Pop-title', fantasy;
+    vertical-align: middle;
+    color: #2f0c4b;
+}
+
+.navbar-nav li a:focus {
+    color: #eabaff !important;
+}
+
+.navbar-nav li a {
+    color: #2f0c4b;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    transition: 0.25s ease-out all;
+    opacity: 100% !important;
+}
+
+.navbar-nav li a:hover {
+    color: #eabaff;
+}
+
+.form-control {
+    border: none;
+    background-color: #2f0c4bd9;
+    border-radius: 10px 0 0 10px;
+    color: #B400FF !important;
+}
+
+.form-control::placeholder {
+    color: #cf5eff;
+}
+
+.btn-buscar {
+    color: #2f0c4bd9;
+    background-color: #00000000;
+    border: 2px solid #2f0c4bd9;
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-buscar:hover {
+    color: #B400FF;
+    background-color: #2f0c4bd9;
+}
+
+.footer {
+    height: 8vh;
+    background-color: #B400FF;
+    font-family: 'Trebuchet MS', fantasy;
+    color: #5A0080;
+}
+
+.footer img, .footer-logo img {
+    height: 5vh;
+}
+
+.footer, .footer-logo, .footer-redes {
+    background-color: #B400FF;
+    outline: 2px solid #B400FF;
+}

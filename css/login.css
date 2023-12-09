@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Pop-title;
+  src: url(Pop Universe/fuentes/Comic-Gecko.ttf);
+}
+
+body {
+  background-color: #5A0080;
+}
+
+.bienvenida {
+  color: #B400FF;
+  font-family: 'Pop-title', fantasy;
+}
+
+.card {
+  /* background-color: #3000f0; */
+  background-color: #C333FF;
+  box-shadow: -6px 6px 7px 0px #38074982;
+  color: #f0eb00;
+  font-family: 'Trebuchet MS', fantasy;
+}
+
+#iniciar {
+  /* background-color: #2e10a3; */
+  background-color: #f0eb00;
+  color: #2e10a3;
+}
+
+#olvidada {
+  color: #f0eb00;
+}
+
+#registro {
+  background-color: #7610A3;
+  color: #f4f5e7;
+}
+
+.footer {
+  height: 8vh;
+  /* background-color: #a90cf0; */
+  background-color: #B400FF;
+  font-family: 'Trebuchet MS', fantasy;
+  color: #5A0080;
+}
+
+.footer img {
+  height: 5vh;
+}
+
+.footer * {
+  background-color: #B400FF;
+}
+
+@media only screen and (max-width : 576px) {
+   .footer {
+    flex-direction: column !important;
+   }
+}

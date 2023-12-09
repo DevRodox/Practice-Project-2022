@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PopVerse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand mx-auto mx-lg-0" href="index.html">
+            <img src="imagenes/Logo-dark.png" alt="PopVerse" width="45" height="45" class="me-2">
+            <span class="fs-2">PopVerse</span>
+        </a>
+        <button style="background-color: #7610a3" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="navbar-body">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto d-flex d-md-none d-lg-flex">
+                <li class="nav-item mx-lg-3">
+                    <a class="nav-link" href="coleccionables.html">Coleccionables</a>
+                </li>
+
+                <li class="nav-item mx-lg-3">
+                    <a class="nav-link" href="ropa.html">Ropa</a>
+                </li>
+
+                <li class="nav-item mx-lg-3">
+                    <a class="nav-link" href="hogar.html">Hogar</a>
+                </li>
+            </ul>
+
+            <form class="d-flex ms-0 me-2" role="search">
+                <input class="form-control" type="search" placeholder="Nombre del producto" aria-label="Search"/>
+                <button class="btn btn-buscar" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <ul class="navbar-nav mb-2 mb-md-0">
+                <li class="nav-item mx-2">
+                    <a class="nav-link fs-1 my-0 py-0 pt-sm-0 pt-3" href="#"><i class="fa-solid fa-circle-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-sm d-none d-md-flex d-lg-none navbar-dark navbar-categories">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="coleccionables.html">Coleccionables</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ropa.html">Ropa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hogar.html">Hogar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carousel-categories" class="carousel slide w-100 mt-1 mt-md-4 mx-auto" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-categories" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-categories" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-categories" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="d-block w-100 mx-auto px-1 px-md-2 px-lg-4">
+                <img src="imagenes/banners/Coleccionables.jpg" class="d-block w-100 mx-auto rounded-3"
+                     alt="Coleccionables">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 mx-auto px-1 px-md-2 px-lg-4">
+                <img src="imagenes/banners/Ropa.jpg" class="d-block w-100 mx-auto rounded-3" alt="Ropa">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100 mx-auto px-1 px-md-2 px-lg-4">
+                <img src="imagenes/banners/Hogar.jpg" class="d-block w-100 mx-auto rounded-3" alt="Hogar">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-categories" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-categories" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="px-4 my-5">
+    <h3>Lo mejor en coleccionables</h3>
+    <div class="scroll-categories">
+        <div class="card">
+            <img src="imagenes/coleccionables/funko-pop-wandavision-1034.jpg" class="card-img-top"
+                 alt="Funko Pop Wandavision #1034">
+            <div class="card-body">
+                <h5 class="card-title">Funko Pop Marvel: Doctor Strange Multiverse of Madness - Bruja Escarlata</h5>
+                <p class="card-text">$ 319.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/x-23.jpg" class="card-img-top"
+                 alt="X Men Wolverine Laura Kinney Estatua">
+            <div class="card-body">
+                <h5 class="card-title">Kotobukiya Bishoujo: Marvel Universe - X Men Wolverine Laura Kinney Estatua</h5>
+                <p class="card-text">$ 2,584.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/funko-pop-doctorstrange-1032.jpg" class="card-img-top"
+                 alt="Funko Doctor Strange #1032">
+            <div class="card-body">
+                <h5 class="card-title">Funko Pop Marvel: Doctor Strange MoM - Dead Strange Glow Exclusivo</h5>
+                <p class="card-text">$ 319.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/the-batman.jpg" class="card-img-top" alt="Batman 12 Pulgadas">
+            <div class="card-body">
+                <h5 class="card-title">McFarlane Estatua: DC The Batman Movie - Batman 12 Pulgadas</h5>
+                <p class="card-text">$ 1,179.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/calendario.jpg" class="card-img-top" alt="Funko Calendario de Adviento">
+            <div class="card-body">
+                <h5 class="card-title">Funko Calendario de Adviento: Marvel Navidad 2022</h5>
+                <p class="card-text">$ 1,559.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/HarryPotter.jpg" class="card-img-top" alt="LEGO Kit de construcción">
+            <div class="card-body">
+                <h5 class="card-title">LEGO Kit de construcción (878 Piezas): Gran Comedor de Hogwarts Harry Potter</h5>
+                <p class="card-text">$ 3,587.47 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/Spiderman.jpg" class="card-img-top" alt="LEGO Mavel Super Heroes">
+            <div class="card-body">
+                <h5 class="card-title">LEGO Mavel Super Heroes Spider-Man Daily Bugle 76178</h5>
+                <p class="card-text">$ 8,698.99 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/Bugatti.jpg" class="card-img-top" alt="Modelo de automóvil">
+            <div class="card-body">
+                <h5 class="card-title">Modelo de automóvil: Bugatti Chiron LEGO® Technic™</h5>
+                <p class="card-text">$ 7,398.99 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/coleccionables/ufo.jpg" class="card-img-top" alt="USAopoly Rick and Morty">
+            <div class="card-body">
+                <h5 class="card-title">USAopoly Rick and Morty: Rick's Car Spaceship Bank Coleccionable</h5>
+                <p class="card-text">$540.61 MXN</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="px-4 my-5">
+    <h3>Lo mejor en ropa</h3>
+    <div class="scroll-categories">
+        <div class="card">
+            <img src="imagenes/ropa/PlayeraMarvelGuardiansofTheGalaxy.jpg" class="card-img-top"
+                 alt="Playera Marvel: Guardians of The Galaxy">
+            <div class="card-body">
+                <h5 class="card-title">Playera Marvel: Guardians of The Galaxy - Saludo</h5>
+                <p class="card-text">$ 299.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/ropa/reloj_homero_simpson.jpg" class="card-img-top" alt="Reloj Exclusivo: The Simpson">
+            <div class="card-body">
+                <h5 class="card-title">Reloj Exclusivo: The Simpson - Homero Simpson</h5>
+                <p class="card-text">$ 599.20 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/ropa/Uglyswater_loki.jpg" class="card-img-top" alt="Uglysweater Marvel: Loki">
+            <div class="card-body">
+                <h5 class="card-title">Uglysweater Marvel: Loki - Helmet</h5>
+                <p class="card-text">$ 799.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/ropa/PlayeraDisneyToyStory-Aliens.jpg" class="card-img-top"
+                 alt="Playera Disney: Toy Story">
+            <div class="card-body">
+                <h5 class="card-title">Playera Disney: Toy Story - Aliens</h5>
+                <p class="card-text">$ 299.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/ropa/gorra_ST_hellfire.jpg"
+                    class="card-img-top" alt="Gorra Stranger Things: Hellfire Club">
+            <div class="card-body">
+                <h5 class="card-title">Gorra Stranger Things: Hellfire Club - Logo</h5>
+                <p class="card-text">$ 349.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/ropa/OnePiece.jpg"
+                    class="card-img-top" alt="Playera One Piece">
+            <div class="card-body">
+                <h5 class="card-title">Prisma Textil Playera One Piece Monkey D Luffy</h5>
+                <p class="card-text">$ 250.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/ropa/Bersek Sudadera.jpg"
+                    class="card-img-top" alt="Sudadera Hombres con Capucha Casual">
+            <div class="card-body">
+                <h5 class="card-title">Berserk Sudadera Hombres con Capucha Casual</h5>
+                <p class="card-text">$ 349.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/ropa/Akatsuki Kimono.jpg"
+                    class="card-img-top" alt="Naruto Akatsuki">
+            <div class="card-body">
+                <h5 class="card-title">Naruto Akatsuki - Ropa De Capa</h5>
+                <p class="card-text">$ 491.75 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/ropa/sudadera-rick-and-morty.jpg"
+                    class="card-img-top" alt="Sudadera con capucha con estampado de Rick & Morty">
+            <div class="card-body">
+                <h5 class="card-title">Sudadera con capucha con estampado de Rick & Morty</h5>
+                <p class="card-text">$ 644.08 MXN</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="px-4 my-5">
+    <h3>Lo mejor en hogar</h3>
+    <div class="scroll-categories">
+        <div class="card">
+            <img src="imagenes/hogar/Travel-mug-flash.jpg" class="card-img-top"
+                 alt="Termo DC Comics: Flash">
+            <div class="card-body">
+                <h5 class="card-title">Termo DC Comics: Flash - Logo</h5>
+                <p class="card-text">$ 399.20 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/libreta_starwars.jpg" class="card-img-top"
+                 alt="Libreta Star Wars: Imperio">
+            <div class="card-body">
+                <h5 class="card-title">Libreta Star Wars: Imperio - con Porta Libreta</h5>
+                <p class="card-text">$ 249.50 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img
+                    src="imagenes/hogar/Llavero-Iron-Man-2.jpg"
+                    class="card-img-top" alt="Llavero Marvel: Iron Man">
+            <div class="card-body">
+                <h5 class="card-title">Llavero Marvel: Iron Man - Reactor Arc</h5>
+                <p class="card-text">$ 159.20 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/ROMPECABEZAS-HOMERO-WITH-DONUT.jpg" class="card-img-top"
+                 alt="Rompecabezas Redondo Homero">
+            <div class="card-body">
+                <h5 class="card-title">Rompecabezas Redondo Homero With Donut 1000 Pz</h5>
+                <p class="card-text">$ 199.20 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/TAZA-STRANGER-THINGS-RETRO.jpg" class="card-img-top"
+                 alt="Taza Stranger Things: Demogorgon">
+            <div class="card-body">
+                <h5 class="card-title">Taza Stranger Things: Demogorgon - Beach</h5>
+                <p class="card-text">$ 239.20 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/pickle-rick-glass-cup.jpg" class="card-img-top" alt="Rick and Morty Pickle Rick">
+            <div class="card-body">
+                <h5 class="card-title">Rick and Morty Pickle Rick - Tarro de vidrio</h5>
+                <p class="card-text">$ 710.75 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/llavero-booba.jpg" class="card-img-top" alt="Llavero Booba">
+            <div class="card-body">
+                <h5 class="card-title">Llavero té con leche accesorio</h5>
+                <p class="card-text">$ 55.00 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/llaveros-demon-slayer.jpg" class="card-img-top" alt="Llaveros demon slayer">
+            <div class="card-body">
+                <h5 class="card-title">Llavero Demon Slayer, figuras de Demon Slayer</h5>
+                <p class="card-text">$ 417.07 MXN</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/hogar/taza-mr-meeseks.jpg" class="card-img-top" alt="Taza de Meeseeks de 320 ml">
+            <div class="card-body">
+                <h5 class="card-title">Rick and Morty - Taza de Meeseeks de 320 ml</h5>
+                <p class="card-text">$ 299.00 MXN</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar footer">
+    <div class="container-fluid h-100">
+        <div class="d-lg-inline-block d-none">
+            <img src="imagenes/Logo-dark.png" alt="" class="logo me-2">
+            <span>© 2022 PopVerse</span>
+        </div>
+        <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1 justify-content-evenly d-flex flex-row">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conócenos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+        <div class="d-sm-inline-block d-none">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row mx-5">
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-instagram fs-5"></i></a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook fs-5"></i></a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-twitter fs-5"></i></a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-twitch fs-5"></i></a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-youtube fs-5"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="footer-redes d-flex justify-content-center py-2 d-inline-block d-sm-none">
+    <div>
+        <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+            <li class="nav-item me-3">
+                <a class="nav-link" href="#"><i class="fa-brands fa-instagram fs-5"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#"><i class="fa-brands fa-facebook fs-5"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#"><i class="fa-brands fa-twitter fs-5"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#"><i class="fa-brands fa-twitch fs-5"></i></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" href="#"><i class="fa-brands fa-youtube fs-5"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav class="footer-logo d-flex justify-content-center py-2 d-inline-block d-lg-none">
+    <div class="d-inline-block w-auto">
+        <img src="imagenes/Logo-dark.png" alt="" class="logo me-2">
+        <span>© 2022 PopVerse</span>
+    </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                                                                                                 integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                                                                                                 crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/3dde7e58de.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
